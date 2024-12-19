@@ -2,46 +2,23 @@ int sum(int x, int y) { return x + y; }
 
 str get_str(int x)
 {
-    if (x < 10) { return "x ìåíüøå 10";}
-        
-    else if (x == 10) { return "x ğàâíî 10";}
+    if (x < 10)
+    {
+        return "x ìåíüøå 10";
+    }
+
+    else if (x == 10)
+    {
+        return "x ğàâíî 10";
+    }
 
     return "x áîëüøå 10";
 }
 
-int calc(int x, int y, int z) { return sum(x, y) * z + (x - y);}
+int calc(int x, int y, int z) { return sum(x, y) * z + (x - y); }
 
 main
 {
-    // ïğîâåğêà âîçâğàòà ñòğîêè ôóíêöèåé
-    str str_1 = get_str(0xff);
-
-    if (strcmp(str_1, "x áîëüøå 10") == 0) {
-        print("Cool"); // äîëæíî áûòü âûâåäåíî
-    }
-
-    if (sum(1, 2) == 3) {
-        write "aboba\n"; // äîëæíî áûòü âûâåäåíî
-    }
-
-    char ch = '\n';
-    print(ch); // äîëæíî áûòü âûâåäåíî
-
-    // ïğîâåğêà âû÷èñëåíèÿ âûğàæåíèé
-    print(sum(12, 1) * 2 - sum(-1, -5)); // 32
-    print(calc(12, 2, 3));               // 52
-    print(12 == 12);                     // True
-
-    // ïğîâåğêà óñëîâíûõ îïåğàòîğ
-    int a = sum(12, 3);      // 15
-    int b = sum(2, 13);      // 15
-    int x = sum(a, b) + 100; // 130
-
-    if (x == 100) { // íåò
-        print("íåïğàâäà");
-    }
-    else if (x == sum(13, 7) + 10 * 10 + 10) {// 130, èñòèíà
-        print("130, âûõîäèì...");
-        return 10;
-    }
+    int x = 1 + sum(1, 1) * 2 - 1;
+    write x;
 }
