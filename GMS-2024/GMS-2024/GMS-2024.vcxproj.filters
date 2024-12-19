@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Code Generation">
+      <UniqueIdentifier>{81bd6e1e-1175-4df8-8ccc-7446e6d69ed0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Code Generation\Lexems Parsing">
+      <UniqueIdentifier>{9e24aac8-b8ea-4148-afe3-5cfadabdcae6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="error.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FST.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GRB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="In.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lexer_automata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MFST.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="out.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="param.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="regex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="semantic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CodeGeneration\code_gen.cpp">
+      <Filter>Source Files\Code Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="CodeGeneration\data_const_segments.cpp">
+      <Filter>Source Files\Code Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="CodeGeneration\exceptions_names_consts.cpp">
+      <Filter>Source Files\Code Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="CodeGeneration\parse_arithmetic_expressions.cpp">
+      <Filter>Source Files\Code Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="CodeGeneration\parse_expression.cpp">
+      <Filter>Source Files\Code Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="CodeGeneration\parse_function.cpp">
+      <Filter>Source Files\Code Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="CodeGeneration\parse_if_else.cpp">
+      <Filter>Source Files\Code Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="CodeGeneration\parse_utils.cpp">
+      <Filter>Source Files\Code Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="CodeGeneration\Lexems Parsing\parse_equal.cpp">
+      <Filter>Source Files\Code Generation\Lexems Parsing</Filter>
+    </ClCompile>
+    <ClCompile Include="CodeGeneration\Lexems Parsing\parse_lexem.cpp">
+      <Filter>Source Files\Code Generation\Lexems Parsing</Filter>
+    </ClCompile>
+    <ClCompile Include="CodeGeneration\Lexems Parsing\parse_print.cpp">
+      <Filter>Source Files\Code Generation\Lexems Parsing</Filter>
+    </ClCompile>
+    <ClCompile Include="CodeGeneration\Lexems Parsing\parse_id.cpp">
+      <Filter>Source Files\Code Generation\Lexems Parsing</Filter>
+    </ClCompile>
+    <ClCompile Include="CodeGeneration\Lexems Parsing\parse_return.cpp">
+      <Filter>Source Files\Code Generation\Lexems Parsing</Filter>
+    </ClCompile>
+    <ClCompile Include="console.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\code_gen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FST.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GRB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\in.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lexer_automata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MFST.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\out.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\parm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\regex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\semantic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\console.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
