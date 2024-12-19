@@ -1,5 +1,5 @@
-debug
-release
+debug/
+release/
 *.obj
 .vs/
 boost.1.86.0/
